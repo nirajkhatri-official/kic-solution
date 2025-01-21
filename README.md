@@ -4,7 +4,8 @@ This project implements a React Native component (MyComponent) that allows users
 Issues :
 1. Using setTimeout in useEffect to simulate delayed filtering introduces unnecessary complexity and inefficiency.
 2. While the handleClear clears the input field, it doesn't reset the dataSource or the search term state.
-3. Items not deselection after selection.
-4. Lack of Accessibility Features.
+3. The search logic is case sensitive
+4. Items not deselection after selection.
+5. Lack of Accessibility Features.
 
 For test cases Please refer to the __tests/MyComponent.test.tsx
